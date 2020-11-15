@@ -1,0 +1,23 @@
+{
+  "name": "i3-web9-hidden-in-plain-sight-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start ./src/server.js --watch ./src && pm2 monit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "socket.io": "3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.13.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "pm2": "4.5.0"
+  }
+}
